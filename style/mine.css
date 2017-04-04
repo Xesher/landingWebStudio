@@ -6,7 +6,7 @@
 .switch-hero .block:hover{
     border-bottom: 0.2rem solid rgba(105,111,255,0.9);
 }
-.btn1{
+.btn-group{
     margin-top: 1rem;
     margin-left: 10rem;
 }

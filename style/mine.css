@@ -1,0 +1,12 @@
+.image{
+    width: 50rem;
+    height: 40rem;
+    margin-bottom: 3rem;
+}
+.switch-hero .block:hover{
+    border-bottom: 0.2rem solid rgba(105,111,255,0.9);
+}
+#btn1{
+    margin-top: 1rem;
+    margin-left: 10rem;
+}

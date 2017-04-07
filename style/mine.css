@@ -3,13 +3,16 @@
     height: 50rem;
     margin-bottom: 3rem;
 }
-.switch-hero .block:hover{
-    border-bottom: 0.2rem solid rgba(105,111,255,0.9);
-}
 .btn-group{
-    margin-top: 1rem;
-    margin-left: 10rem;
-}
-#btn-distans{
-    margin-left: 1rem;
+     margin-top:1.1rem;
+ }
+nav li button:hover {
+    color: #333;
+    background-color: transparent;}
+nav li button{
+    text-shadow: 0 1px 0 rgba(255,255,255,.25);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    display: block;
 }

@@ -3,69 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="style/mine.css">
+
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style/mine.css">
 </head>
-<body>
-    <nav class="navbar navbar-default noscroll">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a href="#" class="navbar-brand">web-design</a>
-            </div>
-            <div class="pull-right">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Главная</a> </li>
-                    <li><a href="#">Наши проекты</a> </li>
-                    <li><a href="#">О нас</a> </li>
-                </ul>
-                <div class="pull-right btn-group">
-                <button  class="btn btn">Войти</button>
-                <button id="btn-distans" class="btn btn-primary ">Регистрация</button>
-                </div>
-            </div>
-        </div>
-    </nav>
-    <main class="container-fuid">
-        <h3 class="text-center">Надпись сверху картинки</h3>
-        <div class="container-fuid hero-img text-center">
-            <img class="image" src="img/hero1.jpg">
-        </div>
-        <div class="switch-hero row text-center">
-            <div class="col-lg-4">
-                <a href="#" class="block btn">lorem ipsum</a>
-            </div>
-            <div class="col-lg-4">
-                <a href="#" class="block btn">lorem ipsum</a>
-            </div>
-            <div class="col-lg-4 ">
-                <a href="#" class="block btn">lorem ipsum</a>
-            </div>
-        </div>
-        <div class="container-fluid text-center" style="margin-bottom: 4rem"><h3>Текст под кнопками</h3></div>
-        <div class="row text-center">
-            <div class="col-lg-4">
-               <img src="img/PNG/Dashboard.png">
-                <h4>lorem ipsum</h4>
-                <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum ipsum </p>
+<body style="width: 100%;">
 
-            </div>
-            <div class="col-lg-4">
-                <img src="img/PNG/User.png">
-                <h4>lorem ipsum</h4>
-                <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum lorem ipsum lorem ipsum loremlorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum loremlorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum  ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum  ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum ipsum </p>
-
-            </div>
-            <div class="col-lg-4">
-                <img src="img/PNG/Tools.png">
-                <h4>lorem ipsum</h4>
-                <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum ipsum lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </p>
-            </div>
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Web-design</a><!--logo -->
         </div>
-    </main>
-</body>
-</html>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Главная</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#contact">Контакты</a></li>
+                <li class="btn-group">                       <!--Drop down button -->
+                    <button class="btn dropdown-toggle " data-toggle="dropdown">Действие <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Действие</a></li>
+                        <li><a href="#">Другое действие</a></li>
+                        <li><a href="#">Еще и еще</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Отделенный пункт</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+      <main class="container-fluid">
+          <h3 class="text-center">Надпись сверху картинки</h3>
+          <div class="container hero-img text-center">
+              <img  class="image" src="img/hero1.jpg">
+          </div>
+          <div class="switch-hero row text-center">
+              <div class="col-lg-4">
+                  <a href="#" class="block btn">lorem ipsum</a>
+              </div>
+              <div class="col-lg-4">
+                  <a href="#" class="block btn">lorem ipsum</a>
+              </div>
+              <div class="col-lg-4 ">
+                  <a href="#" class="block btn">lorem ipsum</a>
+              </div>
+          </div>
+          <div class="container text-center"><h3>Текст под кнопками</h3></div>
+          <div class="row text-center">
+              <div class="col-lg-4">
+                 <img src="img/PNG/Dashboard.png">
+                  <h4>lorem ipsum</h4>
+                  <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum ipsum </p>
+
+              </div>
+              <div class="col-lg-4">
+                  <img src="img/PNG/User.png">
+                  <h4>lorem ipsum</h4>
+                  <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum lorem ipsum lorem ipsum loremlorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum loremlorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum  ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum  ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum ipsum </p>
+
+              </div>
+              <div class="col-lg-4">
+                  <img src="img/PNG/Tools.png">
+                  <h4>lorem ipsum</h4>
+                  <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum ipsum lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </p>
+              </div>
+          </div>
+
+      </main>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  </body>
+  </html>
